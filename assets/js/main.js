@@ -58,8 +58,8 @@ jQuery(document).ready(function($) {
     GitHubCalendar("#github-graph", "IonicaBizau");
     
     
-    /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
+    /* Github Activity Feed - https://github.com/kingsuk/github-activity */
+    GitHubActivity.feed({ username: "kingsuk", selector: "#ghfeed" });
 
 
 });
