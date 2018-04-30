@@ -55,11 +55,15 @@ jQuery(document).ready(function($) {
     );
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    GitHubCalendar("#github-graph", "kingsuk");
+    GitHubCalendar(".calendar", "kingsuk");
     
     
     /* Github Activity Feed - https://github.com/kingsuk/github-activity */
-    GitHubActivity.feed({ username: "kingsuk", limit: 20 });
+    GitHubActivity.feed({
+        username: "kingsuk",
+        selector: "#feed",
+        limit: 20 // optional
+    });
 
 
 });
