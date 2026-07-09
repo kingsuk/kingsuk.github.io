@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kingsuk.github.io/sitemap.xml
