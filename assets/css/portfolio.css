@@ -591,6 +591,32 @@ h1, h2, h3, h4, p { margin: 0; }
 .project-card__link svg { width: 16px; height: 16px; transition: transform 0.2s var(--ease); }
 .project-card__link:hover svg { transform: translate(2px, -2px); }
 
+/* Projects grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project-card--compact {
+  display: block;
+  grid-template-columns: unset;
+}
+.project-card--compact .project-card__body {
+  padding: 1.75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.project-card--compact .project-card__desc {
+  flex: 1;
+}
+.project-card--compact .project-card__link {
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
 /* Timeline */
 .timeline {
   position: relative;
@@ -832,9 +858,14 @@ h1, h2, h3, h4, p { margin: 0; }
   .hero__actions, .social-links { justify-content: center; }
   .about-grid { grid-template-columns: 1fr; }
   .project-card { grid-template-columns: 1fr; }
+  .projects-grid { grid-template-columns: 1fr; }
   .bento { grid-template-columns: 1fr; }
   .bento__card--wide { grid-column: auto; }
   .hero__scroll { display: none; }
+}
+
+@media (min-width: 901px) and (max-width: 1100px) {
+  .projects-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 640px) {
