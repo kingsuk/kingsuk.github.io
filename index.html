@@ -11,6 +11,7 @@
   <meta property="og:title" content="Kingsuk Majumder — Associate Manager & Software Engineer">
   <meta property="og:description" content="Coder, optimist, futurist. 10+ years building web, mobile, cloud, and IoT solutions. Associate Manager at Accenture.">
   <meta property="og:type" content="website">
+  <meta property="og:image" content="https://kingsuk.github.io/assets/images/profile-latest.jpg">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,6 +27,7 @@
     "jobTitle": "Associate Manager & Software Engineer",
     "worksFor": { "@type": "Organization", "name": "Accenture" },
     "url": "https://kingsuk.github.io",
+    "image": "https://kingsuk.github.io/assets/images/profile-latest.jpg",
     "email": "kingsuk.majumder@gmail.com",
     "address": { "@type": "PostalAddress", "addressLocality": "Kolkata", "addressCountry": "IN" },
     "sameAs": [
@@ -89,7 +91,7 @@
       <div class="hero__visual reveal reveal--delay">
         <div class="profile-frame">
           <div class="profile-frame__ring" aria-hidden="true"></div>
-          <img class="profile-frame__img" src="assets/images/profile1.png" width="320" height="320" alt="Kingsuk Majumder">
+          <img class="profile-frame__img" src="assets/images/profile-latest.jpg" width="320" height="320" alt="Kingsuk Majumder">
           <div class="profile-frame__badge">
             <span class="mono">10+</span>
             <span>years in IT</span>
@@ -143,33 +145,52 @@
         <h2 id="projects-heading" class="section__title">Latest work</h2>
       </header>
       <article class="project-card project-card--featured reveal">
-        <div class="project-card__media">
-          <img src="https://evive.cc/wp-content/uploads/2017/04/Arduino.png" alt="PhiOT Arduino IoT platform" loading="lazy">
-          <span class="project-card__badge">IoT</span>
+        <div class="project-card__media project-card__media--brand">
+          <img src="assets/images/dinenodo-logo.png" alt="DineNodo restaurant ordering platform" loading="lazy">
+          <span class="project-card__badge">Latest</span>
         </div>
         <div class="project-card__body">
-          <div class="project-card__meta mono">IoT · C++ · Arduino · Azure IoT</div>
+          <div class="project-card__meta mono">SaaS · AI · Restaurant Tech</div>
           <h3 class="project-card__title">
-            <a href="http://www.phibasis.com" target="_blank" rel="noopener noreferrer">PhiOT — C++ Library for Arduino</a>
+            <a href="https://dinenodo.com" target="_blank" rel="noopener noreferrer">DineNodo — Restaurant QR Ordering &amp; Management</a>
           </h3>
-          <p class="project-card__summary">A code-less IoT solution for hardware developers.</p>
-          <p class="project-card__desc">A fully automated end-to-end IoT platform consisting of a C++ library for Arduino, a web portal, and a mobile app — so hardware developers can focus on the best hardware experience without worrying about connectivity, code management, or software portals. Started in college, revived on demand from peers.</p>
+          <p class="project-card__summary">Your restaurant, fully digital — no app download required for guests.</p>
+          <p class="project-card__desc">A full-stack restaurant platform I built and operate: guests scan table QR codes to browse a digital menu and place orders from their phone, while managers run everything from a live dashboard — order lifecycle, GST-compliant billing, table QR codes, AI menu setup from a printed menu photo (OpenAI Vision), and AI-generated dish images. Prepaid day-based plans, 106+ active restaurants, and 9,000+ orders processed.</p>
           <div class="tag-list" aria-label="Technologies">
-            <span class="tag">C++</span>
-            <span class="tag">Arduino</span>
-            <span class="tag">ESP8266</span>
-            <span class="tag">MQTT</span>
-            <span class="tag">Azure IoT</span>
-            <span class="tag">Mobile</span>
+            <span class="tag">OpenAI Vision</span>
+            <span class="tag">AWS</span>
+            <span class="tag">QR Ordering</span>
+            <span class="tag">GST Billing</span>
+            <span class="tag">SaaS</span>
+            <span class="tag">Cashfree</span>
           </div>
-          <a class="project-card__link" href="http://phibasis.com" target="_blank" rel="noopener noreferrer">
-            Visit Phibasis.com
+          <a class="project-card__link" href="https://dinenodo.com" target="_blank" rel="noopener noreferrer">
+            Visit DineNodo.com
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
           </a>
         </div>
       </article>
 
       <div class="projects-grid reveal reveal--delay">
+        <article class="project-card project-card--compact">
+          <div class="project-card__body">
+            <div class="project-card__meta mono">IoT · C++ · Arduino · Azure IoT</div>
+            <h3 class="project-card__title">
+              <a href="http://www.phibasis.com" target="_blank" rel="noopener noreferrer">PhiOT — C++ Library for Arduino</a>
+            </h3>
+            <p class="project-card__desc">A code-less end-to-end IoT platform with a C++ Arduino library, web portal, and mobile app — so hardware developers can focus on the device, not connectivity.</p>
+            <div class="tag-list" aria-label="Technologies">
+              <span class="tag">C++</span>
+              <span class="tag">Arduino</span>
+              <span class="tag">MQTT</span>
+              <span class="tag">Azure IoT</span>
+            </div>
+            <a class="project-card__link" href="http://phibasis.com" target="_blank" rel="noopener noreferrer">
+              Visit Phibasis.com
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+        </article>
         <article class="project-card project-card--compact">
           <div class="project-card__body">
             <div class="project-card__meta mono">AI · Python · MCP · DevOps</div>
