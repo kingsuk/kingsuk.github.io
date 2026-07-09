@@ -30,3 +30,29 @@ Add a new object to the `posts` array in `data/insights.json`:
 ```
 
 Posts are sorted by `datePublished` (newest first). The build updates the Insights section and JSON-LD schema in `index.html`.
+
+## Updating LinkedIn skills
+
+Skills are curated from your LinkedIn profile in `data/skills.json`. After editing, rebuild:
+
+```bash
+npm run build:skills
+```
+
+Or rebuild everything:
+
+```bash
+npm run build
+```
+
+### Example skill category
+
+```json
+{
+  "id": "cloud-ai",
+  "label": "Cloud & AI",
+  "skills": ["Microsoft Azure", "Machine Learning"]
+}
+```
+
+The build updates the LinkedIn Skills card and the `knowsAbout` list in structured data for SEO.
