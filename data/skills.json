@@ -1,0 +1,42 @@
+{
+  "linkedinProfile": "https://www.linkedin.com/in/kingsuk-majumder-2812a58a/",
+  "certifications": [
+    {
+      "name": "Web Development Certification on J2EE and ORACLE",
+      "issuer": "NIVT"
+    }
+  ],
+  "categories": [
+    {
+      "id": "development",
+      "label": "Development",
+      "skills": [
+        "Python",
+        ".NET",
+        "Web Development",
+        "Mobile Web Development",
+        "Mobile Application Development",
+        "Mobile Development",
+        "Application Development"
+      ]
+    },
+    {
+      "id": "cloud-ai",
+      "label": "Cloud & AI",
+      "skills": [
+        "Microsoft Azure",
+        "Microsoft Bot Framework",
+        "Bot Framework",
+        "Machine Learning"
+      ]
+    },
+    {
+      "id": "engineering-leadership",
+      "label": "Engineering & Leadership",
+      "skills": [
+        "System Engineering",
+        "Management"
+      ]
+    }
+  ]
+}
