@@ -1,0 +1,77 @@
+{
+  "linkedinProfile": "https://www.linkedin.com/in/kingsuk-majumder-2812a58a/",
+  "posts": [
+    {
+      "id": "claude-code-guardrails",
+      "datePublished": "2026-01-20",
+      "title": "Claude Code enterprise guardrails vs. real automation",
+      "meta": "Agentic AI · Enterprise · Claude Code",
+      "excerpt": "For pure coding, Claude Code's enterprise subscription is unmatched — but when you try to automate daily workflows with browser automation, background processes, or VM orchestration, the sandbox blocks most meaningful work. Security hardening is stifling the innovation it was meant to support.",
+      "url": "https://www.linkedin.com/posts/kingsukmajumder_claudecode-aiagents-enterprisetech-activity-7462224774908448768-OtKX",
+      "tags": ["Claude Code", "AI Agents", "Enterprise Tech", "Automation"],
+      "schemaHeadline": "Claude Code Enterprise Guardrails vs. Real Automation",
+      "schemaDescription": "How enterprise sandbox restrictions block meaningful automation with Claude Code and what teams need to rethink.",
+      "schemaKeywords": "Claude Code, AI Agents, Enterprise Tech, Automation"
+    },
+    {
+      "id": "agentic-ai-cloud",
+      "datePublished": "2026-01-10",
+      "title": "Agentic AI is rewriting cloud infrastructure operations",
+      "meta": "Agentic AI · AWS · Azure · DevOps",
+      "excerpt": "A shift from declarative IaC to agentic outcomes: create scoped IAM access, broker credentials so the LLM never sees secrets, then describe what you need — Route 53 email setup, CloudWatch configuration, and Elastic Beanstalk monitoring handled in minutes instead of days.",
+      "url": "https://www.linkedin.com/posts/kingsukmajumder_agenticai-cloudinfrastructure-devops-activity-7459841237064335360-nK_k",
+      "tags": ["Agentic AI", "Cloud Infrastructure", "AWS", "DevOps"],
+      "schemaHeadline": "Agentic AI Is Rewriting Cloud Infrastructure Operations",
+      "schemaDescription": "A practical approach to scoped IAM access, credential brokering, and natural-language cloud automation on AWS and Azure.",
+      "schemaKeywords": "Agentic AI, Cloud Infrastructure, DevOps, AWS, Azure"
+    },
+    {
+      "id": "enterprise-ai-privacy",
+      "datePublished": "2026-01-05",
+      "title": "The biggest misconception in enterprise AI right now",
+      "meta": "Enterprise AI · Data Privacy · Cloud Security",
+      "excerpt": "\"If we send our data to an LLM, it will be leaked\" — a myth I hear in almost every AI adoption conversation. Managed LLMs from Azure, AWS, and GCP share the same trust model as managed databases. The real risks are app logging, over-scoped agent tools, and weak RBAC.",
+      "url": "https://www.linkedin.com/posts/kingsukmajumder_enterpriseai-dataprivacy-cloudsecurity-activity-7451933964388270080-Izi8",
+      "tags": ["Enterprise AI", "Data Privacy", "AWS Bedrock", "Azure AI"],
+      "schemaHeadline": "The Biggest Misconception in Enterprise AI Right Now",
+      "schemaDescription": "Why the fear that LLMs leak enterprise data is often a myth — and where the real security risks actually live.",
+      "schemaKeywords": "Enterprise AI, Data Privacy, Cloud Security, Azure AI, AWS Bedrock"
+    },
+    {
+      "id": "agentic-platform-48h",
+      "datePublished": "2025-12-28",
+      "title": "Building an agentic automation platform in 48 hours",
+      "meta": "Build in Public · Python · MCP · ServiceNow",
+      "excerpt": "A local-first agent that bridges high-level LLM reasoning with low-level infrastructure execution — monitoring /tmp usage, searching ServiceNow remediation catalogs, and running AWS CLI commands autonomously via MCP, with credentials kept entirely local.",
+      "url": "https://www.linkedin.com/posts/kingsukmajumder_buildinpublic-ai-python-activity-7450244390951813120-dnpH",
+      "tags": ["Build In Public", "Python", "MCP", "ServiceNow"],
+      "schemaHeadline": "Building an Agentic Automation Platform in 48 Hours",
+      "schemaDescription": "A local-first agent bridging LLM reasoning with ServiceNow, AWS, and MCP-based infrastructure execution.",
+      "schemaKeywords": "Build In Public, Agentic AI, Python, DevOps, MCP"
+    },
+    {
+      "id": "phiot-iot",
+      "datePublished": "2021-08-15",
+      "title": "PhiOT — end-to-end IoT for hardware developers",
+      "meta": "IoT · MQTT · Azure IoT · Hardware",
+      "excerpt": "A fully automated IoT solution so hardware developers don't need to worry about connectivity, code management, or software portals — they can concentrate on delivering the best hardware experience. Revived on demand from a project originally built years ago.",
+      "url": "https://www.linkedin.com/posts/kingsukmajumder_iot-smarthome-mqtt-activity-6842854419021860864-PcN-",
+      "tags": ["IoT", "MQTT", "Azure IoT", "Home Automation"],
+      "schemaHeadline": "PhiOT — End-to-End IoT for Hardware Developers",
+      "schemaDescription": "A fully automated IoT platform so hardware developers can focus on devices instead of connectivity and portals.",
+      "schemaKeywords": "IoT, Smart Home, MQTT, Azure IoT, Home Automation"
+    },
+    {
+      "id": "claude-code-enterprise-week",
+      "datePublished": "2026-01-02",
+      "title": "First week with Claude Code Enterprise",
+      "meta": "Claude Code · Enterprise AI · First Impressions",
+      "excerpt": "My first week with Claude Code Enterprise — blown away by how different it is from the regular Max subscription, especially when applied to infrastructure and enterprise workflows.",
+      "url": "https://www.linkedin.com/posts/kingsukmajumder_rethinking-aiclaude-code-in-infrastructure-activity-7453348094269620224-Rlu4",
+      "tags": ["Claude Code", "Enterprise AI", "Infrastructure"],
+      "schemaHeadline": "First Week with Claude Code Enterprise",
+      "schemaDescription": "Early impressions of Claude Code Enterprise compared to Max subscription for infrastructure and enterprise workflows.",
+      "schemaKeywords": "Claude Code, Enterprise AI, Infrastructure"
+    }
+  ]
+}

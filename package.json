@@ -1,0 +1,8 @@
+{
+  "name": "kingsuk-portfolio",
+  "private": true,
+  "description": "Kingsuk Majumder portfolio site",
+  "scripts": {
+    "build:insights": "node scripts/build-insights.js"
+  }
+}
